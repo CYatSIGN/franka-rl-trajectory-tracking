@@ -44,7 +44,7 @@ obs, info = env.reset(seed=42)
 
 print("\nInitial observation shape:", obs.shape)
 
-assert obs.shape == (43,)
+assert obs.shape == (36,)
 
 print("Initial tracking error:", np.linalg.norm(obs[26:29]))
 
