@@ -162,7 +162,7 @@ class PandaTrackingEnv(gym.Env):
         self.observation_space = spaces.Box(
             low=-np.inf,
             high=np.inf,
-            shape=(36,),
+            shape=(43,),
             dtype=np.float32
         )
 
@@ -249,6 +249,7 @@ class PandaTrackingEnv(gym.Env):
             target_position,
             target_velocity,
             tracking_error,
+            self.q_command,
             self.previous_action
         ])
 

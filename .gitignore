@@ -20,3 +20,12 @@ tensorboard/
 
 # Temporary files
 *.tmp
+
+# Reinforcement learning training logs
+logs/
+
+# Intermediate training checkpoints
+models/checkpoints/
+
+# Trained PPO models
+models/
